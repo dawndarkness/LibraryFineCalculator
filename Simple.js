@@ -12,7 +12,7 @@ function checkDays(days) {
     }
     const fine = ((days - borrowLimit) * dailyFine);
     if (fine >= 20)
-    console.log('No more books');
+        console.log('No more books');
     else
-    console.log('Fine in pounds:', fine);
+        console.log('Fine in pounds:', fine);
 }
